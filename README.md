@@ -24,12 +24,12 @@ In addition, the data needed to be scaled with the `StandardScaler` and I used `
 
 After the data was processed, I used `PCA` to reduce the data dimensions to three principal components and created an elbow curve to find the best K value for the `K-Means` algorithm.
 
-[elbow curve](Images/elbow_curve.PNG)
+![elbow curve](Images/elbow_curve.PNG)
 
 Using k = 4 clusters, I categorized the currencies into four different classes, which can be visualized below:
 
-[clustered classes](Images/clustered_classes.PNG)
+![clustered classes](Images/clustered_classes.PNG)
 
 The graph below, showing total coin supply vs. total coins mined would be very helpful for an investor deciding on a cryptocurrency in which to invest.
 
-[total coins](Images/total_coins.PNG)
+![total coins](Images/total_coins.PNG)
